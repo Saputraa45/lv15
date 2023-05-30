@@ -6,8 +6,8 @@ import certifi
 import requests
 
 
-password = 'sparta'
-cxn_str = f'mongodb+srv://dimas:{password}@cluster0.8jhjto5.mongodb.net/?retryWrites=true&w=majority'
+password = 'smkmaarif'
+cxn_str = f'mongodb+srv://galih:{password}@cluster0.ps8yis5.mongodb.net/?retryWrites=true&w=majority'
 client = MongoClient(cxn_str, tlsCAFile=certifi.where())
 db = client.dbsparta_plus_week3
 
